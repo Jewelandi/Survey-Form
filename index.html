@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Survey form by John Ikiebe</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1 id="title">Survey Form</h1>
+        <p id="description">Please fill out this form</p>
+        <form action="https://register-demo.freecodecamp.org" method="post" id="survey-form">
+        <fieldset>
+            <legend>Personal Information</legend>
+            <label id="name-label">Enter Your Name: <input id="name" type="text"  name="name" required placeholder="John doe"/></label>
+            <label id="email-label">Enter Your Email: <input id="email" type="email" name="email" required placeholder="example@gmail.com"/></label>
+            <label id="number-label">Age(optional): <input id="number" type="number" name="age" min="13" max="65" placeholder="between 13 to 65"/></label>
+            <label>Current Position:</label>
+            <select> 
+            <option>(select one)</option>
+            <option>Employed</option>
+            <option>Unemployed</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend>Would you tell people about us?</legend>
+            <label for="yes"><input id="yes" type="radio" name="bool" class="inline" value="yes"/> YES</label>
+            <label for="no"><input id="no" type="radio" name="bool" class="inline" value="no"/> NO</label>
+            <label for="maybe"><input id="maybe" type="radio" name="bool" class="inline" value="maybe"/> MAYBE </label>
+        </fieldset>
+        <fieldset>
+            <label for="feature" id="label-feature">What's your favorite feature?
+            <select id="dropdown" name="dropdown">
+                <option>(select one)</option>
+                <option>Artificial intelligence</option>
+                <option>Algorithm</option>
+                <option>Full stack</option>
+                <option>c++</option>
+            </select>
+            <legend>What should we improve?</legend>
+            <label ><input  type="checkbox"  value="Challenges"class="inline"/> Challenges </label>
+            <label ><input  type="checkbox"  value="projects"/> Projects </label>
+            <label ><input  type="checkbox"  value="curriculum"/> Curriculum </label>
+            <label ><input  type="checkbox"  value="lasson-mode"/>  Lesson Mode</label>
+            </label>
+            <fieldset>
+            <label for="Suggestion"> Any suggestions?:
+                <textarea id="suggestion" rows="9" cols="30"  name="suggestion">
+                </textarea>
+            </label>
+        </fieldset>
+        </fieldset>
+        <input type="submit" value="Submit" id="submit"/>
+        </form>
+    </body>
+</html>

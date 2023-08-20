@@ -1,0 +1,55 @@
+body{
+    background-image:url(survey.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /*display: block;*/
+}
+h1, p{
+    text-align: center;
+    margin: auto;
+}
+
+input{
+    display: block;
+}
+fieldset{
+    border:0px;
+    margin: auto;
+}
+select{
+    display: block;
+}
+/*#age{
+    width:150px;
+}*/
+form{
+    width: 500px;
+    margin:auto;
+    background-color: rgba(125,125, 125, 0.75);
+}
+#feature{
+    display: block;
+    
+}
+input[type="submit"]{
+    background-color:#3b3b;
+    display:block;
+    width:60%;
+    margin: auto;
+    height:1em;
+    font-size:1.1rem;
+    min-width: 300px;
+    padding: 0 0 2em 0;
+}
+textarea{
+    display: block;
+    width:90%;
+    margin: auto;
+}
+label{
+    display: block;
+    
+}
